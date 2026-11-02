@@ -15,11 +15,11 @@
 <defs><clipPath id="outer650"><rect width="250" height="72" rx="36"/></clipPath></defs>
 <g clip-path="url(#outer650)">
 <defs><filter id="wb644" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
-<g id="bg643"><rect width="250" height="72" fill="#eceef3"/><g filter="url(#wb644)"><circle cx="190" cy="26" r="70" fill="#ff9f0a" opacity="0.55"/><circle cx="18" cy="64" r="85" fill="#ff375f" opacity="0.55"/><circle cx="95" cy="30" r="55" fill="#5e5ce6" opacity="0.55"/><circle cx="173" cy="68" r="70" fill="#30b0c7" opacity="0.55"/></g></g></defs><use href="#bg643" xlink:href="#bg643"/>
+<g id="bg643"><rect width="250" height="72" fill="#eef5f4"/><g filter="url(#wb644)"><circle cx="190" cy="26" r="70" fill="#3fbfa8" opacity="0.5"/><circle cx="18" cy="64" r="85" fill="#1b3a5c" opacity="0.5"/><circle cx="95" cy="30" r="55" fill="#f4c2c2" opacity="0.5"/><circle cx="173" cy="68" r="70" fill="#0f5e63" opacity="0.5"/></g></g></defs><use href="#bg643" xlink:href="#bg643"/>
 <defs>
   <clipPath id="c645"><rect x="6" y="6" width="238" height="60" rx="30"/></clipPath>
   <filter id="f646" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
-  <filter id="sh649" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="11" flood-color="rgba(30,30,60,0.18)"/></filter>
+  <filter id="sh649" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="11" flood-color="rgba(14,40,60,0.16)"/></filter>
   <linearGradient id="r647" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="rgba(255,255,255,0.95)"/><stop offset=".5" stop-color="rgba(255,255,255,0.35)"/><stop offset="1" stop-color="rgba(255,255,255,0.8)"/>
   </linearGradient>
@@ -27,14 +27,14 @@
     <stop offset="0" stop-color="rgba(255,255,255,0.45)"/><stop offset=".5" stop-color="rgba(255,255,255,0.45)" stop-opacity="0"/>
   </linearGradient>
 </defs>
-<rect x="6" y="6" width="238" height="60" rx="30" fill="#eceef3" opacity=".35" filter="url(#sh649)"/>
+<rect x="6" y="6" width="238" height="60" rx="30" fill="#eef5f4" opacity=".35" filter="url(#sh649)"/>
 <g clip-path="url(#c645)">
   <use href="#bg643" xlink:href="#bg643" filter="url(#f646)"/>
   <rect x="6" y="6" width="238" height="60" fill="rgba(255,255,255,0.42)"/>
   <rect x="6" y="6" width="238" height="60" fill="url(#s648)"/>
 </g>
 <rect x="6.75" y="6.75" width="236.5" height="58.5" rx="29.25" fill="none" stroke="url(#r647)" stroke-width="1.5"/>
-<g transform="translate(46 36)"><path d="M-7 -10H3L8 -5V10H-7Z" fill="none" stroke="#1d1d1f" stroke-width="1.8" stroke-linejoin="round"/><path d="M-3 0H4M-3 4H4" stroke="#1d1d1f" stroke-width="1.6"/></g>
-<text x="70" y="43" class="t" font-size="20" font-weight="600" fill="#1d1d1f">Request CV</text>
+<g transform="translate(46 36)"><path d="M-7 -10H3L8 -5V10H-7Z" fill="none" stroke="#0e1a2b" stroke-width="1.8" stroke-linejoin="round"/><path d="M-3 0H4M-3 4H4" stroke="#0e1a2b" stroke-width="1.6"/></g>
+<text x="70" y="43" class="t" font-size="20" font-weight="600" fill="#0e1a2b">Request CV</text>
 </g>
 </svg>

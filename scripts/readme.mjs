@@ -23,8 +23,8 @@ for (let i = 0; i < PROJECTS.length; i += 2) {
 }
 const streak = (th) => {
   const c = th === "dark"
-    ? "background=00000000&ring=FF9F0A&fire=FF9F0A&currStreakNum=F5F5F7&sideNums=F5F5F7&currStreakLabel=FF9F0A&sideLabels=A1A1AA&dates=6E6E78&stroke=FFFFFF22"
-    : "background=00000000&ring=C2410C&fire=C2410C&currStreakNum=1D1D1F&sideNums=1D1D1F&currStreakLabel=C2410C&sideLabels=55555C&dates=86868B&stroke=00000022";
+    ? "background=00000000&ring=5FD4BE&fire=F4C2C2&currStreakNum=F2F6F8&sideNums=F2F6F8&currStreakLabel=5FD4BE&sideLabels=A9B8C4&dates=6F8396&stroke=FFFFFF22"
+    : "background=00000000&ring=0F766E&fire=B4536A&currStreakNum=0E1A2B&sideNums=0E1A2B&currStreakLabel=0F766E&sideLabels=44546A&dates=7A8798&stroke=00000022";
   return `https://streak-stats.demolab.com?user=kaifsakes&hide_border=true&${c}`;
 };
 

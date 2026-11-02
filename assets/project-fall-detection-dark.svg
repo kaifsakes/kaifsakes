@@ -15,7 +15,7 @@
 <defs><clipPath id="outer221"><rect width="600" height="290" rx="34"/></clipPath></defs>
 <g clip-path="url(#outer221)">
 <defs><filter id="wb215" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="46"/></filter>
-<g id="bg214"><rect width="600" height="290" fill="#07070b"/><g filter="url(#wb215)"><circle class="o1" cx="252" cy="226" r="204" fill="#30b0c7" opacity="0.7"/><circle class="o2" cx="438" cy="90" r="132" fill="#34c759" opacity="0.7"/><circle class="o3" cx="24" cy="244" r="168" fill="#ff9f0a" opacity="0.7"/><circle class="o1" cx="210" cy="107" r="204" fill="#5e5ce6" opacity="0.7"/></g></g></defs><use href="#bg214" xlink:href="#bg214"/>
+<g id="bg214"><rect width="600" height="290" fill="#050b14"/><g filter="url(#wb215)"><circle class="o1" cx="252" cy="226" r="204" fill="#1b3a5c" opacity="0.6"/><circle class="o2" cx="438" cy="90" r="132" fill="#3fbfa8" opacity="0.6"/><circle class="o3" cx="24" cy="244" r="168" fill="#0f5e63" opacity="0.6"/><circle class="o1" cx="210" cy="107" r="204" fill="#f4c2c2" opacity="0.6"/></g></g></defs><use href="#bg214" xlink:href="#bg214"/>
 <defs>
   <clipPath id="c216"><rect x="14" y="14" width="572" height="262" rx="30"/></clipPath>
   <filter id="f217" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
@@ -27,23 +27,23 @@
     <stop offset="0" stop-color="rgba(255,255,255,0.14)"/><stop offset=".5" stop-color="rgba(255,255,255,0.14)" stop-opacity="0"/>
   </linearGradient>
 </defs>
-<rect x="14" y="14" width="572" height="262" rx="30" fill="#07070b" opacity=".35" filter="url(#sh220)"/>
+<rect x="14" y="14" width="572" height="262" rx="30" fill="#050b14" opacity=".35" filter="url(#sh220)"/>
 <g clip-path="url(#c216)">
   <use href="#bg214" xlink:href="#bg214" filter="url(#f217)"/>
-  <rect x="14" y="14" width="572" height="262" fill="rgba(14,14,20,0.58)"/>
+  <rect x="14" y="14" width="572" height="262" fill="rgba(6,14,26,0.6)"/>
   <rect x="14" y="14" width="572" height="262" fill="url(#s219)"/>
 </g>
 <rect x="14.75" y="14.75" width="570.5" height="260.5" rx="29.25" fill="none" stroke="url(#r218)" stroke-width="1.5"/>
 <rect x="42" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
 
-<text x="54" y="56.18" class="m" font-size="13" font-weight="600" fill="#a1a1aa">CH1</text><rect x="101" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
+<text x="54" y="56.18" class="m" font-size="13" font-weight="600" fill="#a9b8c4">CH1</text><rect x="101" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
 
-<text x="113" y="56.18" class="m" font-size="13" font-weight="600" fill="#a1a1aa">CH2</text><rect x="160" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
+<text x="113" y="56.18" class="m" font-size="13" font-weight="600" fill="#a9b8c4">CH2</text><rect x="160" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
 
-<text x="172" y="56.18" class="m" font-size="13" font-weight="600" fill="#a1a1aa">CH4</text><rect x="483" y="38" width="75" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
-<circle cx="499" cy="51.5" r="4.5" fill="#30d158"/>
-<text x="511" y="56.18" class="m" font-size="13" font-weight="600" fill="#f5f5f7">LIVE</text><text x="42" y="110" class="t" font-size="29" font-weight="700" fill="#f5f5f7" letter-spacing="-.4">A Wristband That Knows When</text><text x="42" y="144" class="t" font-size="29" font-weight="700" fill="#f5f5f7" letter-spacing="-.4">You Fall</text><text x="42" y="182" class="t" font-size="19" fill="#a1a1aa">STM32 firmware reads an IMU and streams motion data</text><text x="42" y="207" class="t" font-size="19" fill="#a1a1aa">over BLE.</text>
-<text x="42" y="246" class="t" font-size="30" font-weight="700" fill="#ff9f0a" letter-spacing="-.5">85%<tspan font-size="16" font-weight="500" fill="#a1a1aa" dx="10">detection accuracy</tspan></text>
-<text x="558" y="246" text-anchor="end" class="m" font-size="13" fill="#6e6e78">CHIPMANGO  ↗</text>
+<text x="172" y="56.18" class="m" font-size="13" font-weight="600" fill="#a9b8c4">CH4</text><rect x="483" y="38" width="75" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
+<circle cx="499" cy="51.5" r="4.5" fill="#5fd4be"/>
+<text x="511" y="56.18" class="m" font-size="13" font-weight="600" fill="#f2f6f8">LIVE</text><text x="42" y="110" class="t" font-size="29" font-weight="700" fill="#f2f6f8" letter-spacing="-.4">A Wristband That Knows When</text><text x="42" y="144" class="t" font-size="29" font-weight="700" fill="#f2f6f8" letter-spacing="-.4">You Fall</text><text x="42" y="182" class="t" font-size="19" fill="#a9b8c4">STM32 firmware reads an IMU and streams motion data</text><text x="42" y="207" class="t" font-size="19" fill="#a9b8c4">over BLE.</text>
+<text x="42" y="246" class="t" font-size="30" font-weight="700" fill="#5fd4be" letter-spacing="-.5">85%<tspan font-size="16" font-weight="500" fill="#a9b8c4" dx="10">detection accuracy</tspan></text>
+<text x="558" y="246" text-anchor="end" class="m" font-size="13" fill="#6f8396">CHIPMANGO  ↗</text>
 </g>
 </svg>

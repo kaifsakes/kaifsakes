@@ -15,7 +15,7 @@
 <defs><clipPath id="outer205"><rect width="1200" height="120" rx="30"/></clipPath></defs>
 <g clip-path="url(#outer205)">
 <defs><filter id="wb198" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="19"/></filter>
-<g id="bg197"><rect width="1200" height="120" fill="#07070b"/><g filter="url(#wb198)"><circle class="o1" cx="1116" cy="78" r="408" fill="#ff375f" opacity="0.7"/><circle class="o2" cx="288" cy="22" r="264" fill="#ff9f0a" opacity="0.7"/><circle class="o3" cx="660" cy="85" r="336" fill="#30b0c7" opacity="0.7"/><circle class="o1" cx="1032" cy="29" r="408" fill="#bf5af2" opacity="0.7"/></g></g><linearGradient id="fg199" x1="0" x2="1"><stop offset="0" stop-color="#ff9f0a" stop-opacity="0"/><stop offset=".5" stop-color="#ff9f0a"/><stop offset="1" stop-color="#ff9f0a" stop-opacity="0"/></linearGradient></defs>
+<g id="bg197"><rect width="1200" height="120" fill="#050b14"/><g filter="url(#wb198)"><circle class="o1" cx="1116" cy="78" r="408" fill="#f4c2c2" opacity="0.6"/><circle class="o2" cx="288" cy="22" r="264" fill="#0f5e63" opacity="0.6"/><circle class="o3" cx="660" cy="85" r="336" fill="#3fbfa8" opacity="0.6"/><circle class="o1" cx="1032" cy="29" r="408" fill="#1b3a5c" opacity="0.6"/></g></g><linearGradient id="fg199" x1="0" x2="1"><stop offset="0" stop-color="#5fd4be" stop-opacity="0"/><stop offset=".5" stop-color="#5fd4be"/><stop offset="1" stop-color="#5fd4be" stop-opacity="0"/></linearGradient></defs>
 <use href="#bg197" xlink:href="#bg197"/>
 <defs>
   <clipPath id="c200"><rect x="18" y="18" width="1164" height="84" rx="28"/></clipPath>
@@ -28,15 +28,15 @@
     <stop offset="0" stop-color="rgba(255,255,255,0.14)"/><stop offset=".5" stop-color="rgba(255,255,255,0.14)" stop-opacity="0"/>
   </linearGradient>
 </defs>
-<rect x="18" y="18" width="1164" height="84" rx="28" fill="#07070b" opacity=".35" filter="url(#sh204)"/>
+<rect x="18" y="18" width="1164" height="84" rx="28" fill="#050b14" opacity=".35" filter="url(#sh204)"/>
 <g clip-path="url(#c200)">
   <use href="#bg197" xlink:href="#bg197" filter="url(#f201)"/>
-  <rect x="18" y="18" width="1164" height="84" fill="rgba(14,14,20,0.58)"/>
+  <rect x="18" y="18" width="1164" height="84" fill="rgba(6,14,26,0.6)"/>
   <rect x="18" y="18" width="1164" height="84" fill="url(#s203)"/>
 </g>
 <rect x="18.75" y="18.75" width="1162.5" height="82.5" rx="27.25" fill="none" stroke="url(#r202)" stroke-width="1.5"/>
 <path class="trace" d="M40 74 L74.2 74 C85.6 74 91.3 56 102.7 56 C116.0 56 123.6 69.5 135.0 68.6 C144.5 65.9 154.0 66.8 165.4 70.4 C182.5 74 201.5 74 230.0 74 L264.2 74 C275.6 74 281.3 56 292.7 56 C306.0 56 313.6 69.5 325.0 68.6 C334.5 65.9 344.0 66.8 355.4 70.4 C372.5 74 391.5 74 420.0 74 L454.2 74 C465.6 74 471.3 56 482.7 56 C496.0 56 503.6 69.5 515.0 68.6 C524.5 65.9 534.0 66.8 545.4 70.4 C562.5 74 581.5 74 610.0 74 L644.2 74 C655.6 74 661.3 56 672.7 56 C686.0 56 693.6 69.5 705.0 68.6 C714.5 65.9 724.0 66.8 735.4 70.4 C752.5 74 771.5 74 800.0 74 L834.2 74 C845.6 74 851.3 56 862.7 56 C876.0 56 883.6 69.5 895.0 68.6 C904.5 65.9 914.0 66.8 925.4 70.4 C942.5 74 961.5 74 990.0 74 L1024.2 74 C1035.6 74 1041.3 56 1052.7 56 C1066.0 56 1073.6 69.5 1085.0 68.6 C1094.5 65.9 1104.0 66.8 1115.4 70.4 C1132.5 74 1151.5 74 1180.0 74" fill="none" stroke="url(#fg199)" stroke-width="2" opacity=".6"/>
-<text x="600" y="58" text-anchor="middle" class="t" font-size="22" font-weight="600" fill="#f5f5f7">muhammadkaif.work</text>
-<text x="1020" y="90" text-anchor="end" class="m" font-size="11" fill="#6e6e78">END OF TRACE · CH1</text>
+<text x="600" y="58" text-anchor="middle" class="t" font-size="22" font-weight="600" fill="#f2f6f8">muhammadkaif.work</text>
+<text x="1020" y="90" text-anchor="end" class="m" font-size="11" fill="#6f8396">END OF TRACE · CH1</text>
 </g>
 </svg>

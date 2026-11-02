@@ -15,7 +15,7 @@
 <defs><clipPath id="outer229"><rect width="600" height="290" rx="34"/></clipPath></defs>
 <g clip-path="url(#outer229)">
 <defs><filter id="wb223" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="46"/></filter>
-<g id="bg222"><rect width="600" height="290" fill="#07070b"/><g filter="url(#wb223)"><circle class="o1" cx="354" cy="20" r="132" fill="#ff375f" opacity="0.7"/><circle class="o2" cx="540" cy="174" r="168" fill="#ff9f0a" opacity="0.7"/><circle class="o3" cx="126" cy="38" r="204" fill="#30b0c7" opacity="0.7"/><circle class="o1" cx="312" cy="191" r="132" fill="#bf5af2" opacity="0.7"/></g></g></defs><use href="#bg222" xlink:href="#bg222"/>
+<g id="bg222"><rect width="600" height="290" fill="#050b14"/><g filter="url(#wb223)"><circle class="o1" cx="354" cy="20" r="132" fill="#f4c2c2" opacity="0.6"/><circle class="o2" cx="540" cy="174" r="168" fill="#0f5e63" opacity="0.6"/><circle class="o3" cx="126" cy="38" r="204" fill="#3fbfa8" opacity="0.6"/><circle class="o1" cx="312" cy="191" r="132" fill="#1b3a5c" opacity="0.6"/></g></g></defs><use href="#bg222" xlink:href="#bg222"/>
 <defs>
   <clipPath id="c224"><rect x="14" y="14" width="572" height="262" rx="30"/></clipPath>
   <filter id="f225" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
@@ -27,25 +27,25 @@
     <stop offset="0" stop-color="rgba(255,255,255,0.14)"/><stop offset=".5" stop-color="rgba(255,255,255,0.14)" stop-opacity="0"/>
   </linearGradient>
 </defs>
-<rect x="14" y="14" width="572" height="262" rx="30" fill="#07070b" opacity=".35" filter="url(#sh228)"/>
+<rect x="14" y="14" width="572" height="262" rx="30" fill="#050b14" opacity=".35" filter="url(#sh228)"/>
 <g clip-path="url(#c224)">
   <use href="#bg222" xlink:href="#bg222" filter="url(#f225)"/>
-  <rect x="14" y="14" width="572" height="262" fill="rgba(14,14,20,0.58)"/>
+  <rect x="14" y="14" width="572" height="262" fill="rgba(6,14,26,0.6)"/>
   <rect x="14" y="14" width="572" height="262" fill="url(#s227)"/>
 </g>
 <rect x="14.75" y="14.75" width="570.5" height="260.5" rx="29.25" fill="none" stroke="url(#r226)" stroke-width="1.5"/>
 <rect x="42" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
 
-<text x="54" y="56.18" class="m" font-size="13" font-weight="600" fill="#a1a1aa">CH1</text><rect x="101" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
+<text x="54" y="56.18" class="m" font-size="13" font-weight="600" fill="#a9b8c4">CH1</text><rect x="101" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
 
-<text x="113" y="56.18" class="m" font-size="13" font-weight="600" fill="#a1a1aa">CH3</text><rect x="160" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
+<text x="113" y="56.18" class="m" font-size="13" font-weight="600" fill="#a9b8c4">CH3</text><rect x="160" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
 
-<text x="172" y="56.18" class="m" font-size="13" font-weight="600" fill="#a1a1aa">CH4</text><rect x="219" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
+<text x="172" y="56.18" class="m" font-size="13" font-weight="600" fill="#a9b8c4">CH4</text><rect x="219" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
 
-<text x="231" y="56.18" class="m" font-size="13" font-weight="600" fill="#a1a1aa">CH5</text><rect x="483" y="38" width="75" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
-<circle cx="499" cy="51.5" r="4.5" fill="#30d158"/>
-<text x="511" y="56.18" class="m" font-size="13" font-weight="600" fill="#f5f5f7">LIVE</text><text x="42" y="110" class="t" font-size="29" font-weight="700" fill="#f5f5f7" letter-spacing="-.4">Cell Towers That Report Their</text><text x="42" y="144" class="t" font-size="29" font-weight="700" fill="#f5f5f7" letter-spacing="-.4">Own Health</text><text x="42" y="182" class="t" font-size="19" fill="#a1a1aa">ESP32 + Pi controller, Modbus RTU, MQTT and an ML</text><text x="42" y="207" class="t" font-size="19" fill="#a1a1aa">health model.</text>
-<text x="42" y="246" class="t" font-size="30" font-weight="700" fill="#ff9f0a" letter-spacing="-.5">8<tspan font-size="16" font-weight="500" fill="#a1a1aa" dx="10">site signals, one controller</tspan></text>
-<text x="558" y="246" text-anchor="end" class="m" font-size="13" fill="#6e6e78">GEOCELL CANADA · 2025–26  ↗</text>
+<text x="231" y="56.18" class="m" font-size="13" font-weight="600" fill="#a9b8c4">CH5</text><rect x="483" y="38" width="75" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
+<circle cx="499" cy="51.5" r="4.5" fill="#5fd4be"/>
+<text x="511" y="56.18" class="m" font-size="13" font-weight="600" fill="#f2f6f8">LIVE</text><text x="42" y="110" class="t" font-size="29" font-weight="700" fill="#f2f6f8" letter-spacing="-.4">Cell Towers That Report Their</text><text x="42" y="144" class="t" font-size="29" font-weight="700" fill="#f2f6f8" letter-spacing="-.4">Own Health</text><text x="42" y="182" class="t" font-size="19" fill="#a9b8c4">ESP32 + Pi controller, Modbus RTU, MQTT and an ML</text><text x="42" y="207" class="t" font-size="19" fill="#a9b8c4">health model.</text>
+<text x="42" y="246" class="t" font-size="30" font-weight="700" fill="#5fd4be" letter-spacing="-.5">8<tspan font-size="16" font-weight="500" fill="#a9b8c4" dx="10">site signals, one controller</tspan></text>
+<text x="558" y="246" text-anchor="end" class="m" font-size="13" fill="#6f8396">GEOCELL CANADA · 2025–26  ↗</text>
 </g>
 </svg>

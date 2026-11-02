@@ -14,44 +14,45 @@ const MONO = "'SF Mono', ui-monospace, Menlo, Consolas, 'Liberation Mono', monos
 
 const THEMES = {
   dark: {
-    base: "#07070b",
-    text: "#f5f5f7",
-    sub: "#a1a1aa",
-    faint: "#6e6e78",
-    tint: "rgba(14,14,20,0.58)",
+    base: "#050b14",
+    text: "#f2f6f8",
+    sub: "#a9b8c4",
+    faint: "#6f8396",
+    tint: "rgba(6,14,26,0.6)",
     tintTop: "rgba(255,255,255,0.14)",
     rim: ["rgba(255,255,255,0.55)", "rgba(255,255,255,0.06)", "rgba(255,255,255,0.22)"],
     chip: "rgba(255,255,255,0.10)",
     chipStroke: "rgba(255,255,255,0.18)",
     shadow: "rgba(0,0,0,0.55)",
-    orbOpacity: 0.7,
-    accent: "#ff9f0a",
-    good: "#30d158",
+    orbOpacity: 0.6,
+    accent: "#5fd4be",
+    good: "#5fd4be",
   },
   light: {
-    base: "#eceef3",
-    text: "#1d1d1f",
-    sub: "#55555c",
-    faint: "#86868b",
+    base: "#eef5f4",
+    text: "#0e1a2b",
+    sub: "#44546a",
+    faint: "#7a8798",
     tint: "rgba(255,255,255,0.42)",
     tintTop: "rgba(255,255,255,0.45)",
     rim: ["rgba(255,255,255,0.95)", "rgba(255,255,255,0.35)", "rgba(255,255,255,0.8)"],
     chip: "rgba(255,255,255,0.55)",
     chipStroke: "rgba(0,0,0,0.08)",
-    shadow: "rgba(30,30,60,0.18)",
-    orbOpacity: 0.55,
-    accent: "#c2410c",
-    good: "#1a7f37",
+    shadow: "rgba(14,40,60,0.16)",
+    orbOpacity: 0.5,
+    accent: "#0f766e",
+    good: "#0f766e",
   },
 };
 
 // Wallpaper palettes (soft, Apple-wallpaper-like orbs).
 const PALETTES = [
-  ["#ff9f0a", "#ff375f", "#5e5ce6", "#30b0c7"],
-  ["#30b0c7", "#34c759", "#ff9f0a", "#5e5ce6"],
-  ["#ff375f", "#ff9f0a", "#30b0c7", "#bf5af2"],
-  ["#5e5ce6", "#30b0c7", "#ff9f0a", "#ff375f"],
+  ["#3fbfa8", "#1b3a5c", "#f4c2c2", "#0f5e63"],
+  ["#1b3a5c", "#3fbfa8", "#0f5e63", "#f4c2c2"],
+  ["#f4c2c2", "#0f5e63", "#3fbfa8", "#1b3a5c"],
+  ["#0f5e63", "#f4c2c2", "#1b3a5c", "#3fbfa8"],
 ];
+const PINK = { dark: "#f4c2c2", light: "#b4536a" };
 
 const esc = (s) =>
   String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -180,7 +181,7 @@ function tracePath(x0, x1, yMid, amp, period) {
 function hero(themeName) {
   const th = THEMES[themeName];
   const W = 1200, H = 420;
-  const wp = wallpaper(W, H, th, PALETTES[0], 0);
+  const wp = wallpaper(W, H, th, PALETTES[1], 1);
   const px = 36, py = 36, pw = W - 72, ph = H - 72;
   const roles = [
     "Firmware  ·  STM32  ·  ESP32  ·  Zephyr RTOS",
@@ -229,7 +230,7 @@ function hero(themeName) {
 <circle cx="${lx}" cy="${ly}" r="${lr + 26}" fill="none" stroke="${th.chipStroke}" stroke-dasharray="2 10"/>
 <text x="${lx}" y="${ly + lr + 58}" text-anchor="middle" class="m" font-size="12" fill="${th.faint}">2.00 V/DIV · 50 MS/S · TRIG ↑</text>`;
   const body = `<defs>${wp.defs}
-  <linearGradient id="${traceGrad}" x1="0" x2="1"><stop offset="0" stop-color="${th.accent}" stop-opacity="0"/><stop offset=".25" stop-color="${th.accent}"/><stop offset=".75" stop-color="${PALETTES[0][3]}"/><stop offset="1" stop-color="${PALETTES[0][3]}" stop-opacity="0"/></linearGradient>
+  <linearGradient id="${traceGrad}" x1="0" x2="1"><stop offset="0" stop-color="${th.accent}" stop-opacity="0"/><stop offset=".25" stop-color="${th.accent}"/><stop offset=".75" stop-color="${PINK[themeName]}"/><stop offset="1" stop-color="${PINK[themeName]}" stop-opacity="0"/></linearGradient>
 </defs>
 <use href="#${wp.id}" xlink:href="#${wp.id}"/>
 ${glass(th, wp.id, px, py, pw, ph, 40)}
@@ -294,7 +295,7 @@ function card(themeName, p, i) {
       return c1.svg;
     })
     .join("");
-  const statusColor = p.status === "Live" ? th.good : p.status === "Research" ? PALETTES[0][3] : th.accent;
+  const statusColor = p.status === "Live" ? th.good : p.status === "Research" ? PINK[themeName] : "#7fb6d6";
   const st = chip(th, 0, 0, p.status.toUpperCase(), { size: 13, dot: statusColor });
   const stSvg = chip(th, W - inset - 28 - st.w, inset + 24, p.status.toUpperCase(), { size: 13, dot: statusColor, color: th.text }).svg;
   const tl = wrap(p.title, 30);
@@ -408,7 +409,7 @@ export const STACK = [
   ["PyTorch", "pytorch.svg", "#EE4C2C"], ["TensorFlow", "tensorflow.svg", "#FF6F00"], ["Edge Impulse", "edgeimpulse.svg", "#3B47C2"],
   ["LangChain", "langchain.svg", "#7FC8FF"], ["EasyEDA", "easyeda.svg", "#1765F6"],
 ];
-const TILE_BG = { dark: "#1a1a20", light: "#f4f4f7" };
+const TILE_BG = { dark: "#101b2b", light: "#f5f9f9" };
 const rgb = (h) => { const n = parseInt(h.slice(1), 16); return [(n >> 16) & 255, (n >> 8) & 255, n & 255]; };
 const lum = (c) => { const l = (v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; }; return 0.2126 * l(c[0]) + 0.7152 * l(c[1]) + 0.0722 * l(c[2]); };
 const ratio = (a, b) => { const [x, y] = [lum(a), lum(b)].sort((p, q) => q - p); return (x + 0.05) / (y + 0.05); };

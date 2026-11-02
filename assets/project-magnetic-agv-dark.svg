@@ -15,7 +15,7 @@
 <defs><clipPath id="outer269"><rect width="600" height="290" rx="34"/></clipPath></defs>
 <g clip-path="url(#outer269)">
 <defs><filter id="wb263" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="46"/></filter>
-<g id="bg262"><rect width="600" height="290" fill="#07070b"/><g filter="url(#wb263)"><circle class="o1" cx="264" cy="151" r="204" fill="#5e5ce6" opacity="0.7"/><circle class="o2" cx="450" cy="14" r="132" fill="#30b0c7" opacity="0.7"/><circle class="o3" cx="36" cy="168" r="168" fill="#ff9f0a" opacity="0.7"/><circle class="o1" cx="222" cy="32" r="204" fill="#ff375f" opacity="0.7"/></g></g></defs><use href="#bg262" xlink:href="#bg262"/>
+<g id="bg262"><rect width="600" height="290" fill="#050b14"/><g filter="url(#wb263)"><circle class="o1" cx="264" cy="151" r="204" fill="#0f5e63" opacity="0.6"/><circle class="o2" cx="450" cy="14" r="132" fill="#f4c2c2" opacity="0.6"/><circle class="o3" cx="36" cy="168" r="168" fill="#1b3a5c" opacity="0.6"/><circle class="o1" cx="222" cy="32" r="204" fill="#3fbfa8" opacity="0.6"/></g></g></defs><use href="#bg262" xlink:href="#bg262"/>
 <defs>
   <clipPath id="c264"><rect x="14" y="14" width="572" height="262" rx="30"/></clipPath>
   <filter id="f265" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
@@ -27,23 +27,23 @@
     <stop offset="0" stop-color="rgba(255,255,255,0.14)"/><stop offset=".5" stop-color="rgba(255,255,255,0.14)" stop-opacity="0"/>
   </linearGradient>
 </defs>
-<rect x="14" y="14" width="572" height="262" rx="30" fill="#07070b" opacity=".35" filter="url(#sh268)"/>
+<rect x="14" y="14" width="572" height="262" rx="30" fill="#050b14" opacity=".35" filter="url(#sh268)"/>
 <g clip-path="url(#c264)">
   <use href="#bg262" xlink:href="#bg262" filter="url(#f265)"/>
-  <rect x="14" y="14" width="572" height="262" fill="rgba(14,14,20,0.58)"/>
+  <rect x="14" y="14" width="572" height="262" fill="rgba(6,14,26,0.6)"/>
   <rect x="14" y="14" width="572" height="262" fill="url(#s267)"/>
 </g>
 <rect x="14.75" y="14.75" width="570.5" height="260.5" rx="29.25" fill="none" stroke="url(#r266)" stroke-width="1.5"/>
 <rect x="42" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
 
-<text x="54" y="56.18" class="m" font-size="13" font-weight="600" fill="#a1a1aa">CH1</text><rect x="101" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
+<text x="54" y="56.18" class="m" font-size="13" font-weight="600" fill="#a9b8c4">CH1</text><rect x="101" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
 
-<text x="113" y="56.18" class="m" font-size="13" font-weight="600" fill="#a1a1aa">CH4</text><rect x="160" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
+<text x="113" y="56.18" class="m" font-size="13" font-weight="600" fill="#a9b8c4">CH4</text><rect x="160" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
 
-<text x="172" y="56.18" class="m" font-size="13" font-weight="600" fill="#a1a1aa">CH5</text><rect x="438" y="38" width="120" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
-<circle cx="454" cy="51.5" r="4.5" fill="#ff9f0a"/>
-<text x="466" y="56.18" class="m" font-size="13" font-weight="600" fill="#f5f5f7">PROTOTYPE</text><text x="42" y="110" class="t" font-size="29" font-weight="700" fill="#f5f5f7" letter-spacing="-.4">A Robot That Follows Magnetic</text><text x="42" y="144" class="t" font-size="29" font-weight="700" fill="#f5f5f7" letter-spacing="-.4">Tracks</text><text x="42" y="182" class="t" font-size="19" fill="#a1a1aa">Custom Hall-effect sensor PCB and MQTT-connected</text><text x="42" y="207" class="t" font-size="19" fill="#a1a1aa">ESP32-S3 firmware.</text>
-<text x="42" y="246" class="t" font-size="30" font-weight="700" fill="#ff9f0a" letter-spacing="-.5">PCB<tspan font-size="16" font-weight="500" fill="#a1a1aa" dx="10">+ firmware + MQTT</tspan></text>
-<text x="558" y="246" text-anchor="end" class="m" font-size="13" fill="#6e6e78">MACHADEV · 2025  ↗</text>
+<text x="172" y="56.18" class="m" font-size="13" font-weight="600" fill="#a9b8c4">CH5</text><rect x="438" y="38" width="120" height="27" rx="13.5" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
+<circle cx="454" cy="51.5" r="4.5" fill="#7fb6d6"/>
+<text x="466" y="56.18" class="m" font-size="13" font-weight="600" fill="#f2f6f8">PROTOTYPE</text><text x="42" y="110" class="t" font-size="29" font-weight="700" fill="#f2f6f8" letter-spacing="-.4">A Robot That Follows Magnetic</text><text x="42" y="144" class="t" font-size="29" font-weight="700" fill="#f2f6f8" letter-spacing="-.4">Tracks</text><text x="42" y="182" class="t" font-size="19" fill="#a9b8c4">Custom Hall-effect sensor PCB and MQTT-connected</text><text x="42" y="207" class="t" font-size="19" fill="#a9b8c4">ESP32-S3 firmware.</text>
+<text x="42" y="246" class="t" font-size="30" font-weight="700" fill="#5fd4be" letter-spacing="-.5">PCB<tspan font-size="16" font-weight="500" fill="#a9b8c4" dx="10">+ firmware + MQTT</tspan></text>
+<text x="558" y="246" text-anchor="end" class="m" font-size="13" fill="#6f8396">MACHADEV · 2025  ↗</text>
 </g>
 </svg>

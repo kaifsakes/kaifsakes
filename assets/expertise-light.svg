@@ -15,10 +15,10 @@
 <defs><clipPath id="outer521"><rect width="1200" height="380" rx="32"/></clipPath></defs>
 <g clip-path="url(#outer521)">
 <defs><filter id="wb485" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="61"/></filter>
-<g id="bg484"><rect width="1200" height="380" fill="#eceef3"/><g filter="url(#wb485)"><circle class="o1" cx="708" cy="27" r="264" fill="#30b0c7" opacity="0.55"/><circle class="o2" cx="1080" cy="228" r="336" fill="#34c759" opacity="0.55"/><circle class="o3" cx="252" cy="49" r="408" fill="#ff9f0a" opacity="0.55"/><circle class="o1" cx="624" cy="251" r="264" fill="#5e5ce6" opacity="0.55"/></g></g></defs><use href="#bg484" xlink:href="#bg484"/><defs>
+<g id="bg484"><rect width="1200" height="380" fill="#eef5f4"/><g filter="url(#wb485)"><circle class="o1" cx="708" cy="27" r="264" fill="#1b3a5c" opacity="0.5"/><circle class="o2" cx="1080" cy="228" r="336" fill="#3fbfa8" opacity="0.5"/><circle class="o3" cx="252" cy="49" r="408" fill="#0f5e63" opacity="0.5"/><circle class="o1" cx="624" cy="251" r="264" fill="#f4c2c2" opacity="0.5"/></g></g></defs><use href="#bg484" xlink:href="#bg484"/><defs>
   <clipPath id="c486"><rect x="22" y="22" width="275.5" height="159" rx="24"/></clipPath>
   <filter id="f487" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
-  <filter id="sh490" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="rgba(30,30,60,0.18)"/></filter>
+  <filter id="sh490" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="rgba(14,40,60,0.16)"/></filter>
   <linearGradient id="r488" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="rgba(255,255,255,0.95)"/><stop offset=".5" stop-color="rgba(255,255,255,0.35)"/><stop offset="1" stop-color="rgba(255,255,255,0.8)"/>
   </linearGradient>
@@ -26,7 +26,7 @@
     <stop offset="0" stop-color="rgba(255,255,255,0.45)"/><stop offset=".5" stop-color="rgba(255,255,255,0.45)" stop-opacity="0"/>
   </linearGradient>
 </defs>
-<rect x="22" y="22" width="275.5" height="159" rx="24" fill="#eceef3" opacity=".35" filter="url(#sh490)"/>
+<rect x="22" y="22" width="275.5" height="159" rx="24" fill="#eef5f4" opacity=".35" filter="url(#sh490)"/>
 <g clip-path="url(#c486)">
   <use href="#bg484" xlink:href="#bg484" filter="url(#f487)"/>
   <rect x="22" y="22" width="275.5" height="159" fill="rgba(255,255,255,0.42)"/>
@@ -34,12 +34,12 @@
 </g>
 <rect x="22.75" y="22.75" width="274" height="157.5" rx="23.25" fill="none" stroke="url(#r488)" stroke-width="1.5"/><rect x="44" y="44" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.55)" stroke="rgba(0,0,0,0.08)"/>
 
-<text x="56" y="62.18" class="m" font-size="13" font-weight="600" fill="#c2410c">CH1</text>
-<text x="44" y="112" class="t" font-size="23" font-weight="700" fill="#1d1d1f">Embedded &amp; Firmware</text>
-<text x="44" y="157" class="t" font-size="16" fill="#55555c">MCU firmware, RTOS, drivers, OTA</text><defs>
+<text x="56" y="62.18" class="m" font-size="13" font-weight="600" fill="#0f766e">CH1</text>
+<text x="44" y="112" class="t" font-size="23" font-weight="700" fill="#0e1a2b">Embedded &amp; Firmware</text>
+<text x="44" y="157" class="t" font-size="16" fill="#44546a">MCU firmware, RTOS, drivers, OTA</text><defs>
   <clipPath id="c491"><rect x="315.5" y="22" width="275.5" height="159" rx="24"/></clipPath>
   <filter id="f492" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
-  <filter id="sh495" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="rgba(30,30,60,0.18)"/></filter>
+  <filter id="sh495" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="rgba(14,40,60,0.16)"/></filter>
   <linearGradient id="r493" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="rgba(255,255,255,0.95)"/><stop offset=".5" stop-color="rgba(255,255,255,0.35)"/><stop offset="1" stop-color="rgba(255,255,255,0.8)"/>
   </linearGradient>
@@ -47,7 +47,7 @@
     <stop offset="0" stop-color="rgba(255,255,255,0.45)"/><stop offset=".5" stop-color="rgba(255,255,255,0.45)" stop-opacity="0"/>
   </linearGradient>
 </defs>
-<rect x="315.5" y="22" width="275.5" height="159" rx="24" fill="#eceef3" opacity=".35" filter="url(#sh495)"/>
+<rect x="315.5" y="22" width="275.5" height="159" rx="24" fill="#eef5f4" opacity=".35" filter="url(#sh495)"/>
 <g clip-path="url(#c491)">
   <use href="#bg484" xlink:href="#bg484" filter="url(#f492)"/>
   <rect x="315.5" y="22" width="275.5" height="159" fill="rgba(255,255,255,0.42)"/>
@@ -55,12 +55,12 @@
 </g>
 <rect x="316.25" y="22.75" width="274" height="157.5" rx="23.25" fill="none" stroke="url(#r493)" stroke-width="1.5"/><rect x="337.5" y="44" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.55)" stroke="rgba(0,0,0,0.08)"/>
 
-<text x="349.5" y="62.18" class="m" font-size="13" font-weight="600" fill="#c2410c">CH2</text>
-<text x="337.5" y="112" class="t" font-size="23" font-weight="700" fill="#1d1d1f">Medical Wearables</text>
-<text x="337.5" y="157" class="t" font-size="16" fill="#55555c">ECG, PPG, IMU, sEMG</text><defs>
+<text x="349.5" y="62.18" class="m" font-size="13" font-weight="600" fill="#0f766e">CH2</text>
+<text x="337.5" y="112" class="t" font-size="23" font-weight="700" fill="#0e1a2b">Medical Wearables</text>
+<text x="337.5" y="157" class="t" font-size="16" fill="#44546a">ECG, PPG, IMU, sEMG</text><defs>
   <clipPath id="c496"><rect x="609" y="22" width="275.5" height="159" rx="24"/></clipPath>
   <filter id="f497" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
-  <filter id="sh500" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="rgba(30,30,60,0.18)"/></filter>
+  <filter id="sh500" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="rgba(14,40,60,0.16)"/></filter>
   <linearGradient id="r498" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="rgba(255,255,255,0.95)"/><stop offset=".5" stop-color="rgba(255,255,255,0.35)"/><stop offset="1" stop-color="rgba(255,255,255,0.8)"/>
   </linearGradient>
@@ -68,7 +68,7 @@
     <stop offset="0" stop-color="rgba(255,255,255,0.45)"/><stop offset=".5" stop-color="rgba(255,255,255,0.45)" stop-opacity="0"/>
   </linearGradient>
 </defs>
-<rect x="609" y="22" width="275.5" height="159" rx="24" fill="#eceef3" opacity=".35" filter="url(#sh500)"/>
+<rect x="609" y="22" width="275.5" height="159" rx="24" fill="#eef5f4" opacity=".35" filter="url(#sh500)"/>
 <g clip-path="url(#c496)">
   <use href="#bg484" xlink:href="#bg484" filter="url(#f497)"/>
   <rect x="609" y="22" width="275.5" height="159" fill="rgba(255,255,255,0.42)"/>
@@ -76,12 +76,12 @@
 </g>
 <rect x="609.75" y="22.75" width="274" height="157.5" rx="23.25" fill="none" stroke="url(#r498)" stroke-width="1.5"/><rect x="631" y="44" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.55)" stroke="rgba(0,0,0,0.08)"/>
 
-<text x="643" y="62.18" class="m" font-size="13" font-weight="600" fill="#c2410c">CH3</text>
-<text x="631" y="112" class="t" font-size="23" font-weight="700" fill="#1d1d1f">Edge AI &amp; ML</text>
-<text x="631" y="157" class="t" font-size="16" fill="#55555c">NPUs, MCUs, offline LLMs</text><defs>
+<text x="643" y="62.18" class="m" font-size="13" font-weight="600" fill="#0f766e">CH3</text>
+<text x="631" y="112" class="t" font-size="23" font-weight="700" fill="#0e1a2b">Edge AI &amp; ML</text>
+<text x="631" y="157" class="t" font-size="16" fill="#44546a">NPUs, MCUs, offline LLMs</text><defs>
   <clipPath id="c501"><rect x="902.5" y="22" width="275.5" height="159" rx="24"/></clipPath>
   <filter id="f502" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
-  <filter id="sh505" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="rgba(30,30,60,0.18)"/></filter>
+  <filter id="sh505" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="rgba(14,40,60,0.16)"/></filter>
   <linearGradient id="r503" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="rgba(255,255,255,0.95)"/><stop offset=".5" stop-color="rgba(255,255,255,0.35)"/><stop offset="1" stop-color="rgba(255,255,255,0.8)"/>
   </linearGradient>
@@ -89,7 +89,7 @@
     <stop offset="0" stop-color="rgba(255,255,255,0.45)"/><stop offset=".5" stop-color="rgba(255,255,255,0.45)" stop-opacity="0"/>
   </linearGradient>
 </defs>
-<rect x="902.5" y="22" width="275.5" height="159" rx="24" fill="#eceef3" opacity=".35" filter="url(#sh505)"/>
+<rect x="902.5" y="22" width="275.5" height="159" rx="24" fill="#eef5f4" opacity=".35" filter="url(#sh505)"/>
 <g clip-path="url(#c501)">
   <use href="#bg484" xlink:href="#bg484" filter="url(#f502)"/>
   <rect x="902.5" y="22" width="275.5" height="159" fill="rgba(255,255,255,0.42)"/>
@@ -97,12 +97,12 @@
 </g>
 <rect x="903.25" y="22.75" width="274" height="157.5" rx="23.25" fill="none" stroke="url(#r503)" stroke-width="1.5"/><rect x="924.5" y="44" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.55)" stroke="rgba(0,0,0,0.08)"/>
 
-<text x="936.5" y="62.18" class="m" font-size="13" font-weight="600" fill="#c2410c">CH4</text>
-<text x="924.5" y="112" class="t" font-size="23" font-weight="700" fill="#1d1d1f">Connectivity &amp; IoT</text>
-<text x="924.5" y="157" class="t" font-size="16" fill="#55555c">BLE, Wi-Fi, MQTT, Modbus</text><defs>
+<text x="936.5" y="62.18" class="m" font-size="13" font-weight="600" fill="#0f766e">CH4</text>
+<text x="924.5" y="112" class="t" font-size="23" font-weight="700" fill="#0e1a2b">Connectivity &amp; IoT</text>
+<text x="924.5" y="157" class="t" font-size="16" fill="#44546a">BLE, Wi-Fi, MQTT, Modbus</text><defs>
   <clipPath id="c506"><rect x="168.75" y="199" width="275.5" height="159" rx="24"/></clipPath>
   <filter id="f507" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
-  <filter id="sh510" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="rgba(30,30,60,0.18)"/></filter>
+  <filter id="sh510" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="rgba(14,40,60,0.16)"/></filter>
   <linearGradient id="r508" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="rgba(255,255,255,0.95)"/><stop offset=".5" stop-color="rgba(255,255,255,0.35)"/><stop offset="1" stop-color="rgba(255,255,255,0.8)"/>
   </linearGradient>
@@ -110,7 +110,7 @@
     <stop offset="0" stop-color="rgba(255,255,255,0.45)"/><stop offset=".5" stop-color="rgba(255,255,255,0.45)" stop-opacity="0"/>
   </linearGradient>
 </defs>
-<rect x="168.75" y="199" width="275.5" height="159" rx="24" fill="#eceef3" opacity=".35" filter="url(#sh510)"/>
+<rect x="168.75" y="199" width="275.5" height="159" rx="24" fill="#eef5f4" opacity=".35" filter="url(#sh510)"/>
 <g clip-path="url(#c506)">
   <use href="#bg484" xlink:href="#bg484" filter="url(#f507)"/>
   <rect x="168.75" y="199" width="275.5" height="159" fill="rgba(255,255,255,0.42)"/>
@@ -118,12 +118,12 @@
 </g>
 <rect x="169.5" y="199.75" width="274" height="157.5" rx="23.25" fill="none" stroke="url(#r508)" stroke-width="1.5"/><rect x="190.75" y="221" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.55)" stroke="rgba(0,0,0,0.08)"/>
 
-<text x="202.75" y="239.18" class="m" font-size="13" font-weight="600" fill="#c2410c">CH5</text>
-<text x="190.75" y="289" class="t" font-size="23" font-weight="700" fill="#1d1d1f">Hardware &amp; Silicon</text>
-<text x="190.75" y="334" class="t" font-size="16" fill="#55555c">PCB, analog IC, FPGA</text><defs>
+<text x="202.75" y="239.18" class="m" font-size="13" font-weight="600" fill="#0f766e">CH5</text>
+<text x="190.75" y="289" class="t" font-size="23" font-weight="700" fill="#0e1a2b">Hardware &amp; Silicon</text>
+<text x="190.75" y="334" class="t" font-size="16" fill="#44546a">PCB, analog IC, FPGA</text><defs>
   <clipPath id="c511"><rect x="462.25" y="199" width="275.5" height="159" rx="24"/></clipPath>
   <filter id="f512" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
-  <filter id="sh515" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="rgba(30,30,60,0.18)"/></filter>
+  <filter id="sh515" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="rgba(14,40,60,0.16)"/></filter>
   <linearGradient id="r513" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="rgba(255,255,255,0.95)"/><stop offset=".5" stop-color="rgba(255,255,255,0.35)"/><stop offset="1" stop-color="rgba(255,255,255,0.8)"/>
   </linearGradient>
@@ -131,7 +131,7 @@
     <stop offset="0" stop-color="rgba(255,255,255,0.45)"/><stop offset=".5" stop-color="rgba(255,255,255,0.45)" stop-opacity="0"/>
   </linearGradient>
 </defs>
-<rect x="462.25" y="199" width="275.5" height="159" rx="24" fill="#eceef3" opacity=".35" filter="url(#sh515)"/>
+<rect x="462.25" y="199" width="275.5" height="159" rx="24" fill="#eef5f4" opacity=".35" filter="url(#sh515)"/>
 <g clip-path="url(#c511)">
   <use href="#bg484" xlink:href="#bg484" filter="url(#f512)"/>
   <rect x="462.25" y="199" width="275.5" height="159" fill="rgba(255,255,255,0.42)"/>
@@ -139,12 +139,12 @@
 </g>
 <rect x="463" y="199.75" width="274" height="157.5" rx="23.25" fill="none" stroke="url(#r513)" stroke-width="1.5"/><rect x="484.25" y="221" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.55)" stroke="rgba(0,0,0,0.08)"/>
 
-<text x="496.25" y="239.18" class="m" font-size="13" font-weight="600" fill="#c2410c">CH6</text>
-<text x="484.25" y="289" class="t" font-size="23" font-weight="700" fill="#1d1d1f">Technical Leadership</text>
-<text x="484.25" y="334" class="t" font-size="16" fill="#55555c">Teams, delivery, deployment</text><defs>
+<text x="496.25" y="239.18" class="m" font-size="13" font-weight="600" fill="#0f766e">CH6</text>
+<text x="484.25" y="289" class="t" font-size="23" font-weight="700" fill="#0e1a2b">Technical Leadership</text>
+<text x="484.25" y="334" class="t" font-size="16" fill="#44546a">Teams, delivery, deployment</text><defs>
   <clipPath id="c516"><rect x="755.75" y="199" width="275.5" height="159" rx="24"/></clipPath>
   <filter id="f517" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
-  <filter id="sh520" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="rgba(30,30,60,0.18)"/></filter>
+  <filter id="sh520" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="rgba(14,40,60,0.16)"/></filter>
   <linearGradient id="r518" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="rgba(255,255,255,0.95)"/><stop offset=".5" stop-color="rgba(255,255,255,0.35)"/><stop offset="1" stop-color="rgba(255,255,255,0.8)"/>
   </linearGradient>
@@ -152,7 +152,7 @@
     <stop offset="0" stop-color="rgba(255,255,255,0.45)"/><stop offset=".5" stop-color="rgba(255,255,255,0.45)" stop-opacity="0"/>
   </linearGradient>
 </defs>
-<rect x="755.75" y="199" width="275.5" height="159" rx="24" fill="#eceef3" opacity=".35" filter="url(#sh520)"/>
+<rect x="755.75" y="199" width="275.5" height="159" rx="24" fill="#eef5f4" opacity=".35" filter="url(#sh520)"/>
 <g clip-path="url(#c516)">
   <use href="#bg484" xlink:href="#bg484" filter="url(#f517)"/>
   <rect x="755.75" y="199" width="275.5" height="159" fill="rgba(255,255,255,0.42)"/>
@@ -160,8 +160,8 @@
 </g>
 <rect x="756.5" y="199.75" width="274" height="157.5" rx="23.25" fill="none" stroke="url(#r518)" stroke-width="1.5"/><rect x="777.75" y="221" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.55)" stroke="rgba(0,0,0,0.08)"/>
 
-<text x="789.75" y="239.18" class="m" font-size="13" font-weight="600" fill="#c2410c">CH7</text>
-<text x="777.75" y="289" class="t" font-size="23" font-weight="700" fill="#1d1d1f">Community &amp; Grants</text>
-<text x="777.75" y="334" class="t" font-size="16" fill="#55555c">$19,500+ grants, 70+ events</text>
+<text x="789.75" y="239.18" class="m" font-size="13" font-weight="600" fill="#0f766e">CH7</text>
+<text x="777.75" y="289" class="t" font-size="23" font-weight="700" fill="#0e1a2b">Community &amp; Grants</text>
+<text x="777.75" y="334" class="t" font-size="16" fill="#44546a">$19,500+ grants, 70+ events</text>
 </g>
 </svg>
