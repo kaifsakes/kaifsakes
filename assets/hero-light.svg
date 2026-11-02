@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Muhammad Kaif, Embedded Systems &amp; AI Engineer">
+<title>Muhammad Kaif, Embedded Systems &amp; AI Engineer</title>
+<style>
+  .t{font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif}
+  .m{font-family:'SF Mono', ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace;letter-spacing:.06em}
+  @keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,-25px)}}
+  @keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,20px)}}
+  @keyframes drift3{0%,100%{transform:translate(0,0)}50%{transform:translate(30px,30px)}}
+  .o1{animation:drift1 14s ease-in-out infinite}
+  .o2{animation:drift2 18s ease-in-out infinite}
+  .o3{animation:drift3 16s ease-in-out infinite}
+  
+  @keyframes role{0%{opacity:0;transform:translateY(8px)}4%,21%{opacity:1;transform:none}25%,100%{opacity:0;transform:translateY(-8px)}}
+  .role{opacity:0;animation:role 12s var(--e,ease) infinite both}
+  @keyframes draw{from{stroke-dashoffset:2400}to{stroke-dashoffset:0}}
+  .trace{stroke-dasharray:2400;animation:draw 6s linear infinite}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
+  .live{animation:blink 2s ease-in-out infinite}
+  @media (prefers-reduced-motion: reduce){.role{opacity:0}.role:first-of-type{opacity:1}.trace{stroke-dasharray:none}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs><clipPath id="outer460"><rect width="1200" height="420" rx="44"/></clipPath></defs>
+<g clip-path="url(#outer460)">
+<defs><filter id="wb448" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="67"/></filter>
+<g id="bg447"><rect width="1200" height="420" fill="#eceef3"/><g filter="url(#wb448)"><circle class="o1" cx="96" cy="84" r="264" fill="#ff9f0a" opacity="0.55"/><circle class="o2" cx="468" cy="307" r="336" fill="#ff375f" opacity="0.55"/><circle class="o3" cx="840" cy="109" r="408" fill="#5e5ce6" opacity="0.55"/><circle class="o1" cx="12" cy="332" r="264" fill="#30b0c7" opacity="0.55"/></g></g>
+  <linearGradient id="tg449" x1="0" x2="1"><stop offset="0" stop-color="#c2410c" stop-opacity="0"/><stop offset=".25" stop-color="#c2410c"/><stop offset=".75" stop-color="#30b0c7"/><stop offset="1" stop-color="#30b0c7" stop-opacity="0"/></linearGradient>
+</defs>
+<use href="#bg447" xlink:href="#bg447"/>
+<defs>
+  <clipPath id="c455"><rect x="36" y="36" width="1128" height="348" rx="40"/></clipPath>
+  <filter id="f456" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
+  <filter id="sh459" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="20" stdDeviation="25" flood-color="rgba(30,30,60,0.18)"/></filter>
+  <linearGradient id="r457" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="rgba(255,255,255,0.95)"/><stop offset=".5" stop-color="rgba(255,255,255,0.35)"/><stop offset="1" stop-color="rgba(255,255,255,0.8)"/>
+  </linearGradient>
+  <linearGradient id="s458" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="rgba(255,255,255,0.45)"/><stop offset=".5" stop-color="rgba(255,255,255,0.45)" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect x="36" y="36" width="1128" height="348" rx="40" fill="#eceef3" opacity=".35" filter="url(#sh459)"/>
+<g clip-path="url(#c455)">
+  <use href="#bg447" xlink:href="#bg447" filter="url(#f456)"/>
+  <rect x="36" y="36" width="1128" height="348" fill="rgba(255,255,255,0.42)"/>
+  <rect x="36" y="36" width="1128" height="348" fill="url(#s458)"/>
+</g>
+<rect x="36.75" y="36.75" width="1126.5" height="346.5" rx="39.25" fill="none" stroke="url(#r457)" stroke-width="1.5"/>
+<rect x="96" y="82" width="245" height="27" rx="13.5" fill="rgba(255,255,255,0.55)" stroke="rgba(0,0,0,0.08)"/>
+
+<text x="108" y="100.18" class="m" font-size="13" font-weight="600" fill="#55555c">CH1  ·  MUHAMMADKAIF.WORK</text>
+<text x="94" y="178" class="t" font-size="66" font-weight="700" fill="#1d1d1f" letter-spacing="-1">Muhammad Kaif</text>
+<text x="96" y="218" class="t" font-size="27" font-weight="500" fill="#55555c">Embedded Systems &amp; AI Engineer</text>
+<text x="96" y="258" class="t role" style="animation-delay:0s" font-size="25" font-weight="500" fill="#c2410c">Firmware  ·  STM32  ·  ESP32  ·  Zephyr RTOS</text><text x="96" y="258" class="t role" style="animation-delay:3s" font-size="25" font-weight="500" fill="#c2410c">Medical wearables  ·  PPG  ·  ECG  ·  sEMG</text><text x="96" y="258" class="t role" style="animation-delay:6s" font-size="25" font-weight="500" fill="#c2410c">Edge AI  ·  NPUs  ·  on-device LLMs</text><text x="96" y="258" class="t role" style="animation-delay:9s" font-size="25" font-weight="500" fill="#c2410c">IoT  ·  BLE  ·  MQTT  ·  Modbus RTU</text>
+<rect x="96" y="286" width="356" height="30" rx="15" fill="rgba(255,255,255,0.55)" stroke="rgba(0,0,0,0.08)"/>
+<circle cx="112" cy="301" r="4.5" fill="#1a7f37"/>
+<text x="124" y="306.76" class="t" font-size="16" font-weight="600" fill="#1d1d1f">Open to roles  ·  Relocation-ready</text>
+<path class="trace" d="M70 352 L97.0 352 C106.0 352 110.5 326 119.5 326 C130.0 326 136.0 345.5 145.0 344.2 C152.5 340.3 160.0 341.6 169.0 346.8 C182.5 352 197.5 352 220.0 352 L247.0 352 C256.0 352 260.5 326 269.5 326 C280.0 326 286.0 345.5 295.0 344.2 C302.5 340.3 310.0 341.6 319.0 346.8 C332.5 352 347.5 352 370.0 352 L397.0 352 C406.0 352 410.5 326 419.5 326 C430.0 326 436.0 345.5 445.0 344.2 C452.5 340.3 460.0 341.6 469.0 346.8 C482.5 352 497.5 352 520.0 352 L547.0 352 C556.0 352 560.5 326 569.5 326 C580.0 326 586.0 345.5 595.0 344.2 C602.5 340.3 610.0 341.6 619.0 346.8 C632.5 352 647.5 352 670.0 352 L697.0 352 C706.0 352 710.5 326 719.5 326 C730.0 326 736.0 345.5 745.0 344.2 C752.5 340.3 760.0 341.6 769.0 346.8 C782.5 352 797.5 352 820.0 352 L847.0 352 C856.0 352 860.5 326 869.5 326 C880.0 326 886.0 345.5 895.0 344.2 C902.5 340.3 910.0 341.6 919.0 346.8 C932.5 352 947.5 352 970.0 352 L997.0 352 C1006.0 352 1010.5 326 1019.5 326 C1030.0 326 1036.0 345.5 1045.0 344.2 C1052.5 340.3 1060.0 341.6 1069.0 346.8 C1082.5 352 1097.5 352 1120.0 352 L1147.0 352 C1156.0 352 1160.5 326 1169.5 326 C1180.0 326 1186.0 345.5 1195.0 344.2 C1202.5 340.3 1210.0 341.6 1219.0 346.8 C1232.5 352 1247.5 352 1270.0 352" fill="none" stroke="url(#tg449)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+<defs>
+  <clipPath id="lc452"><circle cx="930" cy="200" r="112"/></clipPath>
+  <filter id="lf453"><feGaussianBlur stdDeviation="8"/><feColorMatrix type="saturate" values="2"/></filter>
+  <linearGradient id="lr454" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="rgba(255,255,255,0.95)"/><stop offset=".55" stop-color="rgba(255,255,255,0.35)"/><stop offset="1" stop-color="rgba(255,255,255,0.8)"/></linearGradient>
+</defs>
+<g clip-path="url(#lc452)"><use href="#bg447" xlink:href="#bg447" filter="url(#lf453)" transform="translate(930 200) scale(1.25) translate(-930 -200)"/><circle cx="930" cy="200" r="112" fill="rgba(255,255,255,0.42)"/></g>
+<ellipse cx="900" cy="138" rx="58" ry="22" fill="#fff" opacity="0.45" transform="rotate(-24 900 138)"/>
+<circle cx="930" cy="200" r="111" fill="none" stroke="url(#lr454)" stroke-width="2"/>
+<text x="930" y="222" text-anchor="middle" class="t" font-size="64" font-weight="700" fill="#1d1d1f" letter-spacing="2">MK</text>
+<circle cx="930" cy="200" r="138" fill="none" stroke="rgba(0,0,0,0.08)" stroke-dasharray="2 10"/>
+<text x="930" y="370" text-anchor="middle" class="m" font-size="12" fill="#86868b">2.00 V/DIV · 50 MS/S · TRIG ↑</text>
+</g>
+</svg>

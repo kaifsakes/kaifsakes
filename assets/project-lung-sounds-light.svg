@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="290" viewBox="0 0 600 290" role="img" aria-label="Hearing Disease in Breath Sounds: COPD and pneumonia classified from recorded lung sounds. 99% classification accuracy">
+<title>Hearing Disease in Breath Sounds: COPD and pneumonia classified from recorded lung sounds. 99% classification accuracy</title>
+<style>
+  .t{font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif}
+  .m{font-family:'SF Mono', ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace;letter-spacing:.06em}
+  @keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,-25px)}}
+  @keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,20px)}}
+  @keyframes drift3{0%,100%{transform:translate(0,0)}50%{transform:translate(30px,30px)}}
+  .o1{animation:drift1 14s ease-in-out infinite}
+  .o2{animation:drift2 18s ease-in-out infinite}
+  .o3{animation:drift3 16s ease-in-out infinite}
+  
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs><clipPath id="outer610"><rect width="600" height="290" rx="34"/></clipPath></defs>
+<g clip-path="url(#outer610)">
+<defs><filter id="wb604" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="46"/></filter>
+<g id="bg603"><rect width="600" height="290" fill="#eceef3"/><g filter="url(#wb604)"><circle class="o1" cx="468" cy="29" r="168" fill="#30b0c7" opacity="0.55"/><circle class="o2" cx="54" cy="183" r="204" fill="#34c759" opacity="0.55"/><circle class="o3" cx="240" cy="46" r="132" fill="#ff9f0a" opacity="0.55"/><circle class="o1" cx="426" cy="200" r="168" fill="#5e5ce6" opacity="0.55"/></g></g></defs><use href="#bg603" xlink:href="#bg603"/>
+<defs>
+  <clipPath id="c605"><rect x="14" y="14" width="572" height="262" rx="30"/></clipPath>
+  <filter id="f606" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
+  <filter id="sh609" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="21" flood-color="rgba(30,30,60,0.18)"/></filter>
+  <linearGradient id="r607" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="rgba(255,255,255,0.95)"/><stop offset=".5" stop-color="rgba(255,255,255,0.35)"/><stop offset="1" stop-color="rgba(255,255,255,0.8)"/>
+  </linearGradient>
+  <linearGradient id="s608" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="rgba(255,255,255,0.45)"/><stop offset=".5" stop-color="rgba(255,255,255,0.45)" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect x="14" y="14" width="572" height="262" rx="30" fill="#eceef3" opacity=".35" filter="url(#sh609)"/>
+<g clip-path="url(#c605)">
+  <use href="#bg603" xlink:href="#bg603" filter="url(#f606)"/>
+  <rect x="14" y="14" width="572" height="262" fill="rgba(255,255,255,0.42)"/>
+  <rect x="14" y="14" width="572" height="262" fill="url(#s608)"/>
+</g>
+<rect x="14.75" y="14.75" width="570.5" height="260.5" rx="29.25" fill="none" stroke="url(#r607)" stroke-width="1.5"/>
+<rect x="42" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.55)" stroke="rgba(0,0,0,0.08)"/>
+
+<text x="54" y="56.18" class="m" font-size="13" font-weight="600" fill="#55555c">CH2</text><rect x="101" y="38" width="51" height="27" rx="13.5" fill="rgba(255,255,255,0.55)" stroke="rgba(0,0,0,0.08)"/>
+
+<text x="113" y="56.18" class="m" font-size="13" font-weight="600" fill="#55555c">CH3</text><rect x="447" y="38" width="111" height="27" rx="13.5" fill="rgba(255,255,255,0.55)" stroke="rgba(0,0,0,0.08)"/>
+<circle cx="463" cy="51.5" r="4.5" fill="#30b0c7"/>
+<text x="475" y="56.18" class="m" font-size="13" font-weight="600" fill="#1d1d1f">RESEARCH</text><text x="42" y="110" class="t" font-size="29" font-weight="700" fill="#1d1d1f" letter-spacing="-.4">Hearing Disease in Breath</text><text x="42" y="144" class="t" font-size="29" font-weight="700" fill="#1d1d1f" letter-spacing="-.4">Sounds</text><text x="42" y="182" class="t" font-size="19" fill="#55555c">COPD and pneumonia classified from recorded lung</text><text x="42" y="207" class="t" font-size="19" fill="#55555c">sounds.</text>
+<text x="42" y="246" class="t" font-size="30" font-weight="700" fill="#c2410c" letter-spacing="-.5">99%<tspan font-size="16" font-weight="500" fill="#55555c" dx="10">classification accuracy</tspan></text>
+<text x="558" y="246" text-anchor="end" class="m" font-size="13" fill="#86868b">MS THESIS  ↗</text>
+</g>
+</svg>
