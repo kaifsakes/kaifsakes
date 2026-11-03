@@ -3,37 +3,14 @@
 <style>
   .t{font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif}
   .m{font-family:'SF Mono', ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace;letter-spacing:.06em}
-  @keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,-25px)}}
-  @keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,20px)}}
-  @keyframes drift3{0%,100%{transform:translate(0,0)}50%{transform:translate(30px,30px)}}
-  .o1{animation:drift1 14s ease-in-out infinite}
-  .o2{animation:drift2 18s ease-in-out infinite}
-  .o3{animation:drift3 16s ease-in-out infinite}
   
   @media (prefers-reduced-motion: reduce){*{animation:none!important}}
 </style>
-<defs><clipPath id="outer317"><rect width="250" height="72" rx="36"/></clipPath></defs>
-<g clip-path="url(#outer317)">
-<defs><filter id="wb311" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
-<g id="bg310"><rect width="250" height="72" fill="#050b14"/><g filter="url(#wb311)"><circle cx="148" cy="5" r="55" fill="#0f5e63" opacity="0.6"/><circle cx="225" cy="43" r="70" fill="#f4c2c2" opacity="0.6"/><circle cx="52" cy="9" r="85" fill="#1b3a5c" opacity="0.6"/><circle cx="130" cy="48" r="55" fill="#3fbfa8" opacity="0.6"/></g></g></defs><use href="#bg310" xlink:href="#bg310"/>
-<defs>
-  <clipPath id="c312"><rect x="6" y="6" width="238" height="60" rx="30"/></clipPath>
-  <filter id="f313" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
-  <filter id="sh316" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="11" flood-color="rgba(0,0,0,0.55)"/></filter>
-  <linearGradient id="r314" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="rgba(255,255,255,0.55)"/><stop offset=".5" stop-color="rgba(255,255,255,0.06)"/><stop offset="1" stop-color="rgba(255,255,255,0.22)"/>
-  </linearGradient>
-  <linearGradient id="s315" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="rgba(255,255,255,0.14)"/><stop offset=".5" stop-color="rgba(255,255,255,0.14)" stop-opacity="0"/>
-  </linearGradient>
-</defs>
-<rect x="6" y="6" width="238" height="60" rx="30" fill="#050b14" opacity=".35" filter="url(#sh316)"/>
-<g clip-path="url(#c312)">
-  <use href="#bg310" xlink:href="#bg310" filter="url(#f313)"/>
-  <rect x="6" y="6" width="238" height="60" fill="rgba(6,14,26,0.6)"/>
-  <rect x="6" y="6" width="238" height="60" fill="url(#s315)"/>
-</g>
-<rect x="6.75" y="6.75" width="236.5" height="58.5" rx="29.25" fill="none" stroke="url(#r314)" stroke-width="1.5"/>
+<defs><clipPath id="outer64"><rect width="250" height="72" rx="36"/></clipPath></defs>
+<g clip-path="url(#outer64)">
+<defs><linearGradient id="wg63" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f5e63" stop-opacity=".16"/><stop offset=".55" stop-color="#f4c2c2" stop-opacity=".06"/><stop offset="1" stop-color="#1b3a5c" stop-opacity=".14"/></linearGradient>
+<g id="bg62"><rect width="250" height="72" fill="#060e18"/><rect width="250" height="72" fill="url(#wg63)"/></g></defs><use href="#bg62" xlink:href="#bg62"/>
+<rect x="6.5" y="6.5" width="237" height="59" rx="30" fill="#0b1724" stroke="#1d3247"/>
 <g transform="translate(46 36)"><circle cx="-4" cy="-3" r="5" fill="none" stroke="#f2f6f8" stroke-width="1.8"/><circle cx="5" cy="3" r="5" fill="none" stroke="#f2f6f8" stroke-width="1.8"/></g>
 <text x="70" y="43" class="t" font-size="20" font-weight="600" fill="#f2f6f8">Collaborate</text>
 </g>

@@ -1,4 +1,4 @@
-// Generates the "liquid glass" SVGs used by README.md, in light and dark.
+// Generates the flat card SVGs used by README.md, in light and dark.
 // Run: node scripts/build.mjs   (no dependencies)
 // Facts must match https://muhammadkaif.work (source of truth).
 
@@ -14,7 +14,7 @@ const MONO = "'SF Mono', ui-monospace, Menlo, Consolas, 'Liberation Mono', monos
 
 const THEMES = {
   dark: {
-    base: "#050b14",
+    base: "#060e18",
     text: "#f2f6f8",
     sub: "#a9b8c4",
     faint: "#6f8396",
@@ -24,12 +24,14 @@ const THEMES = {
     chip: "rgba(255,255,255,0.10)",
     chipStroke: "rgba(255,255,255,0.18)",
     shadow: "rgba(0,0,0,0.55)",
+    card: "#0b1724",
+    border: "#1d3247",
     orbOpacity: 0.6,
     accent: "#5fd4be",
     good: "#5fd4be",
   },
   light: {
-    base: "#eef5f4",
+    base: "#eef5f3",
     text: "#0e1a2b",
     sub: "#44546a",
     faint: "#7a8798",
@@ -39,6 +41,8 @@ const THEMES = {
     chip: "rgba(255,255,255,0.55)",
     chipStroke: "rgba(0,0,0,0.08)",
     shadow: "rgba(14,40,60,0.16)",
+    card: "#ffffff",
+    border: "#d3e3df",
     orbOpacity: 0.5,
     accent: "#0f766e",
     good: "#0f766e",
@@ -76,61 +80,25 @@ const id = (p) => `${p}${++uid}`;
 const STYLE = (extra = "") => `<style>
   .t{font-family:${SANS}}
   .m{font-family:${MONO};letter-spacing:.06em}
-  @keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,-25px)}}
-  @keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,20px)}}
-  @keyframes drift3{0%,100%{transform:translate(0,0)}50%{transform:translate(30px,30px)}}
-  .o1{animation:drift1 14s ease-in-out infinite}
-  .o2{animation:drift2 18s ease-in-out infinite}
-  .o3{animation:drift3 16s ease-in-out infinite}
   ${extra}
   @media (prefers-reduced-motion: reduce){*{animation:none!important}}
 </style>`;
 
-/** Wallpaper with blurred colour orbs. Returns {defs, id} to <use>. */
-function wallpaper(w, h, th, palette, seed = 0, animate = true) {
+/** Flat background: base colour with a faint palette-tinted diagonal wash
+ * (one linear gradient, no filters, so it renders instantly). */
+function wallpaper(w, h, th, palette) {
   const bg = id("bg");
-  const blur = id("wb");
-  const orbs = palette
-    .map((c, i) => {
-      const r = Math.max(w, h) * (0.22 + ((i + seed) % 3) * 0.06);
-      const cx = ((i * 0.31 + seed * 0.17 + 0.08) % 1) * w;
-      const cy = ((i * 0.53 + seed * 0.29 + 0.2) % 1) * h;
-      const cls = animate ? ` class="o${(i % 3) + 1}"` : "";
-      return `<circle${cls} cx="${cx.toFixed(0)}" cy="${cy.toFixed(0)}" r="${r.toFixed(0)}" fill="${c}" opacity="${th.orbOpacity}"/>`;
-    })
-    .join("");
+  const g = id("wg");
   return {
     id: bg,
-    defs: `<filter id="${blur}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="${Math.round(Math.min(w, h) * 0.16)}"/></filter>
-<g id="${bg}"><rect width="${w}" height="${h}" fill="${th.base}"/><g filter="url(#${blur})">${orbs}</g></g>`,
+    defs: `<linearGradient id="${g}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${palette[0]}" stop-opacity=".16"/><stop offset=".55" stop-color="${palette[1]}" stop-opacity=".06"/><stop offset="1" stop-color="${palette[2]}" stop-opacity=".14"/></linearGradient>
+<g id="${bg}"><rect width="${w}" height="${h}" fill="${th.base}"/><rect width="${w}" height="${h}" fill="url(#${g})"/></g>`,
   };
 }
 
-/** A frosted-glass panel over the wallpaper `bgId`. */
-function glass(th, bgId, x, y, w, h, r) {
-  const clip = id("c");
-  const frost = id("f");
-  const rim = id("r");
-  const sheen = id("s");
-  const sh = id("sh");
-  return `<defs>
-  <clipPath id="${clip}"><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${r}"/></clipPath>
-  <filter id="${frost}" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
-  <filter id="${sh}" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="${Math.round(h * 0.04) + 6}" stdDeviation="${Math.round(h * 0.05) + 8}" flood-color="${th.shadow}"/></filter>
-  <linearGradient id="${rim}" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="${th.rim[0]}"/><stop offset=".5" stop-color="${th.rim[1]}"/><stop offset="1" stop-color="${th.rim[2]}"/>
-  </linearGradient>
-  <linearGradient id="${sheen}" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="${th.tintTop}"/><stop offset=".5" stop-color="${th.tintTop}" stop-opacity="0"/>
-  </linearGradient>
-</defs>
-<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${r}" fill="${th.base}" opacity=".35" filter="url(#${sh})"/>
-<g clip-path="url(#${clip})">
-  <use href="#${bgId}" xlink:href="#${bgId}" filter="url(#${frost})"/>
-  <rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${th.tint}"/>
-  <rect x="${x}" y="${y}" width="${w}" height="${h}" fill="url(#${sheen})"/>
-</g>
-<rect x="${x + 0.75}" y="${y + 0.75}" width="${w - 1.5}" height="${h - 1.5}" rx="${r - 0.75}" fill="none" stroke="url(#${rim})" stroke-width="1.5"/>`;
+/** A flat card: solid fill and a 1px border. */
+function glass(th, _bgId, x, y, w, h, r) {
+  return `<rect x="${x + 0.5}" y="${y + 0.5}" width="${w - 1}" height="${h - 1}" rx="${r}" fill="${th.card}" stroke="${th.border}"/>`;
 }
 
 function chip(th, x, y, label, { mono = true, size = 14, color, dot } = {}) {
@@ -215,17 +183,8 @@ function hero(themeName) {
   const ch = chip(th, 96, 82, "CH1  ·  MUHAMMADKAIF.WORK", { size: 13 });
   // Lens with initials on the right.
   const lx = 930, ly = 200, lr = 112;
-  const lensClip = id("lc");
-  const lensFrost = id("lf");
-  const lensRim = id("lr");
-  const lens = `<defs>
-  <clipPath id="${lensClip}"><circle cx="${lx}" cy="${ly}" r="${lr}"/></clipPath>
-  <filter id="${lensFrost}"><feGaussianBlur stdDeviation="8"/><feColorMatrix type="saturate" values="2"/></filter>
-  <linearGradient id="${lensRim}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${th.rim[0]}"/><stop offset=".55" stop-color="${th.rim[1]}"/><stop offset="1" stop-color="${th.rim[2]}"/></linearGradient>
-</defs>
-<g clip-path="url(#${lensClip})"><use href="#${wp.id}" xlink:href="#${wp.id}" filter="url(#${lensFrost})" transform="translate(${lx} ${ly}) scale(1.25) translate(${-lx} ${-ly})"/><circle cx="${lx}" cy="${ly}" r="${lr}" fill="${th.tint}"/></g>
-<ellipse cx="${lx - 30}" cy="${ly - 62}" rx="58" ry="22" fill="#fff" opacity="${themeName === "dark" ? 0.12 : 0.45}" transform="rotate(-24 ${lx - 30} ${ly - 62})"/>
-<circle cx="${lx}" cy="${ly}" r="${lr - 1}" fill="none" stroke="url(#${lensRim})" stroke-width="2"/>
+  const lens = `<circle cx="${lx}" cy="${ly}" r="${lr}" fill="${th.base}" stroke="${th.border}" stroke-width="1.5"/>
+<circle cx="${lx}" cy="${ly}" r="${lr - 14}" fill="none" stroke="${th.accent}" stroke-opacity=".35"/>
 <text x="${lx}" y="${ly + 22}" text-anchor="middle" class="t" font-size="64" font-weight="700" fill="${th.text}" letter-spacing="2">MK</text>
 <circle cx="${lx}" cy="${ly}" r="${lr + 26}" fill="none" stroke="${th.chipStroke}" stroke-dasharray="2 10"/>
 <text x="${lx}" y="${ly + lr + 58}" text-anchor="middle" class="m" font-size="12" fill="${th.faint}">2.00 V/DIV · 50 MS/S · TRIG ↑</text>`;

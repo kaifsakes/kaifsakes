@@ -56,16 +56,6 @@ More on **[muhammadkaif.work/leadership](https://muhammadkaif.work/leadership)**
 
 Also SQL, Dart, ESP8266, CH32 (WCH), Teensy, Arm, Xilinx FPGA, FreeRTOS, CMake, MQTT, Modbus RTU, LoRa, WebSockets, Socket.IO, JSON, TFLite Micro, Keras, scikit-learn, OpenCV, ONNX, Hugging Face, LangGraph, OpenAI, Ollama, Qwen, ChromaDB, Proteus, Cadence Virtuoso, Vivado, Nextion, NI Multisim, Docker, Postman, Tailscale, Jira, Figma, Cursor, Claude, Slack, MS Office, Flutter and Android Studio.
 
-## Activity
-
-<p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=kaifsakes&hide_border=true&background=00000000&ring=5FD4BE&fire=F4C2C2&currStreakNum=F2F6F8&sideNums=F2F6F8&currStreakLabel=5FD4BE&sideLabels=A9B8C4&dates=6F8396&stroke=FFFFFF22"><img src="https://streak-stats.demolab.com?user=kaifsakes&hide_border=true&background=00000000&ring=0F766E&fire=B4536A&currStreakNum=0E1A2B&sideNums=0E1A2B&currStreakLabel=0F766E&sideLabels=44546A&dates=7A8798&stroke=00000022" alt="GitHub contribution streak" width="70%"></picture>
-</p>
-
-<p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaifsakes/kaifsakes/output/snake-dark.svg"><img src="https://raw.githubusercontent.com/kaifsakes/kaifsakes/output/snake.svg" alt="Contribution graph being eaten by a snake" width="100%"></picture>
-</p>
-
 <a href="https://muhammadkaif.work"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg"><img src="assets/footer-dark.svg" alt="muhammadkaif.work" width="100%"></picture></a>
 
 <!-- CH1 trigger armed. If you're reading the source, you'd probably enjoy the site's source too. -->

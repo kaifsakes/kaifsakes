@@ -3,93 +3,19 @@
 <style>
   .t{font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif}
   .m{font-family:'SF Mono', ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace;letter-spacing:.06em}
-  @keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,-25px)}}
-  @keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,20px)}}
-  @keyframes drift3{0%,100%{transform:translate(0,0)}50%{transform:translate(30px,30px)}}
-  .o1{animation:drift1 14s ease-in-out infinite}
-  .o2{animation:drift2 18s ease-in-out infinite}
-  .o3{animation:drift3 16s ease-in-out infinite}
   
   @media (prefers-reduced-motion: reduce){*{animation:none!important}}
 </style>
-<defs><clipPath id="outer158"><rect width="1200" height="190" rx="32"/></clipPath></defs>
-<g clip-path="url(#outer158)">
-<defs><filter id="wb137" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="30"/></filter>
-<g id="bg136"><rect width="1200" height="190" fill="#050b14"/><g filter="url(#wb137)"><circle class="o1" cx="504" cy="148" r="408" fill="#0f5e63" opacity="0.6"/><circle class="o2" cx="876" cy="59" r="264" fill="#f4c2c2" opacity="0.6"/><circle class="o3" cx="48" cy="160" r="336" fill="#1b3a5c" opacity="0.6"/><circle class="o1" cx="420" cy="70" r="408" fill="#3fbfa8" opacity="0.6"/></g></g></defs><use href="#bg136" xlink:href="#bg136"/><defs>
-  <clipPath id="c138"><rect x="22" y="22" width="274" height="146" rx="26"/></clipPath>
-  <filter id="f139" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
-  <filter id="sh142" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="rgba(0,0,0,0.55)"/></filter>
-  <linearGradient id="r140" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="rgba(255,255,255,0.55)"/><stop offset=".5" stop-color="rgba(255,255,255,0.06)"/><stop offset="1" stop-color="rgba(255,255,255,0.22)"/>
-  </linearGradient>
-  <linearGradient id="s141" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="rgba(255,255,255,0.14)"/><stop offset=".5" stop-color="rgba(255,255,255,0.14)" stop-opacity="0"/>
-  </linearGradient>
-</defs>
-<rect x="22" y="22" width="274" height="146" rx="26" fill="#050b14" opacity=".35" filter="url(#sh142)"/>
-<g clip-path="url(#c138)">
-  <use href="#bg136" xlink:href="#bg136" filter="url(#f139)"/>
-  <rect x="22" y="22" width="274" height="146" fill="rgba(6,14,26,0.6)"/>
-  <rect x="22" y="22" width="274" height="146" fill="url(#s141)"/>
-</g>
-<rect x="22.75" y="22.75" width="272.5" height="144.5" rx="25.25" fill="none" stroke="url(#r140)" stroke-width="1.5"/>
+<defs><clipPath id="outer15"><rect width="1200" height="190" rx="32"/></clipPath></defs>
+<g clip-path="url(#outer15)">
+<defs><linearGradient id="wg14" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f5e63" stop-opacity=".16"/><stop offset=".55" stop-color="#f4c2c2" stop-opacity=".06"/><stop offset="1" stop-color="#1b3a5c" stop-opacity=".14"/></linearGradient>
+<g id="bg13"><rect width="1200" height="190" fill="#060e18"/><rect width="1200" height="190" fill="url(#wg14)"/></g></defs><use href="#bg13" xlink:href="#bg13"/><rect x="22.5" y="22.5" width="273" height="145" rx="26" fill="#0b1724" stroke="#1d3247"/>
 <text x="159" y="100" text-anchor="middle" class="t" font-size="50" font-weight="700" fill="#f2f6f8" letter-spacing="-1">23+</text>
-<text x="159" y="140" text-anchor="middle" class="t" font-size="20" font-weight="500" fill="#a9b8c4">projects delivered</text><defs>
-  <clipPath id="c143"><rect x="316" y="22" width="274" height="146" rx="26"/></clipPath>
-  <filter id="f144" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
-  <filter id="sh147" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="rgba(0,0,0,0.55)"/></filter>
-  <linearGradient id="r145" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="rgba(255,255,255,0.55)"/><stop offset=".5" stop-color="rgba(255,255,255,0.06)"/><stop offset="1" stop-color="rgba(255,255,255,0.22)"/>
-  </linearGradient>
-  <linearGradient id="s146" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="rgba(255,255,255,0.14)"/><stop offset=".5" stop-color="rgba(255,255,255,0.14)" stop-opacity="0"/>
-  </linearGradient>
-</defs>
-<rect x="316" y="22" width="274" height="146" rx="26" fill="#050b14" opacity=".35" filter="url(#sh147)"/>
-<g clip-path="url(#c143)">
-  <use href="#bg136" xlink:href="#bg136" filter="url(#f144)"/>
-  <rect x="316" y="22" width="274" height="146" fill="rgba(6,14,26,0.6)"/>
-  <rect x="316" y="22" width="274" height="146" fill="url(#s146)"/>
-</g>
-<rect x="316.75" y="22.75" width="272.5" height="144.5" rx="25.25" fill="none" stroke="url(#r145)" stroke-width="1.5"/>
+<text x="159" y="140" text-anchor="middle" class="t" font-size="20" font-weight="500" fill="#a9b8c4">projects delivered</text><rect x="316.5" y="22.5" width="273" height="145" rx="26" fill="#0b1724" stroke="#1d3247"/>
 <text x="453" y="100" text-anchor="middle" class="t" font-size="50" font-weight="700" fill="#f2f6f8" letter-spacing="-1">12</text>
-<text x="453" y="140" text-anchor="middle" class="t" font-size="20" font-weight="500" fill="#a9b8c4">engineers led</text><defs>
-  <clipPath id="c148"><rect x="610" y="22" width="274" height="146" rx="26"/></clipPath>
-  <filter id="f149" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
-  <filter id="sh152" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="rgba(0,0,0,0.55)"/></filter>
-  <linearGradient id="r150" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="rgba(255,255,255,0.55)"/><stop offset=".5" stop-color="rgba(255,255,255,0.06)"/><stop offset="1" stop-color="rgba(255,255,255,0.22)"/>
-  </linearGradient>
-  <linearGradient id="s151" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="rgba(255,255,255,0.14)"/><stop offset=".5" stop-color="rgba(255,255,255,0.14)" stop-opacity="0"/>
-  </linearGradient>
-</defs>
-<rect x="610" y="22" width="274" height="146" rx="26" fill="#050b14" opacity=".35" filter="url(#sh152)"/>
-<g clip-path="url(#c148)">
-  <use href="#bg136" xlink:href="#bg136" filter="url(#f149)"/>
-  <rect x="610" y="22" width="274" height="146" fill="rgba(6,14,26,0.6)"/>
-  <rect x="610" y="22" width="274" height="146" fill="url(#s151)"/>
-</g>
-<rect x="610.75" y="22.75" width="272.5" height="144.5" rx="25.25" fill="none" stroke="url(#r150)" stroke-width="1.5"/>
+<text x="453" y="140" text-anchor="middle" class="t" font-size="20" font-weight="500" fill="#a9b8c4">engineers led</text><rect x="610.5" y="22.5" width="273" height="145" rx="26" fill="#0b1724" stroke="#1d3247"/>
 <text x="747" y="100" text-anchor="middle" class="t" font-size="50" font-weight="700" fill="#f2f6f8" letter-spacing="-1">$19,500+</text>
-<text x="747" y="140" text-anchor="middle" class="t" font-size="20" font-weight="500" fill="#a9b8c4">grants secured</text><defs>
-  <clipPath id="c153"><rect x="904" y="22" width="274" height="146" rx="26"/></clipPath>
-  <filter id="f154" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="22"/><feColorMatrix type="saturate" values="1.6"/></filter>
-  <filter id="sh157" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="rgba(0,0,0,0.55)"/></filter>
-  <linearGradient id="r155" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="rgba(255,255,255,0.55)"/><stop offset=".5" stop-color="rgba(255,255,255,0.06)"/><stop offset="1" stop-color="rgba(255,255,255,0.22)"/>
-  </linearGradient>
-  <linearGradient id="s156" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="rgba(255,255,255,0.14)"/><stop offset=".5" stop-color="rgba(255,255,255,0.14)" stop-opacity="0"/>
-  </linearGradient>
-</defs>
-<rect x="904" y="22" width="274" height="146" rx="26" fill="#050b14" opacity=".35" filter="url(#sh157)"/>
-<g clip-path="url(#c153)">
-  <use href="#bg136" xlink:href="#bg136" filter="url(#f154)"/>
-  <rect x="904" y="22" width="274" height="146" fill="rgba(6,14,26,0.6)"/>
-  <rect x="904" y="22" width="274" height="146" fill="url(#s156)"/>
-</g>
-<rect x="904.75" y="22.75" width="272.5" height="144.5" rx="25.25" fill="none" stroke="url(#r155)" stroke-width="1.5"/>
+<text x="747" y="140" text-anchor="middle" class="t" font-size="20" font-weight="500" fill="#a9b8c4">grants secured</text><rect x="904.5" y="22.5" width="273" height="145" rx="26" fill="#0b1724" stroke="#1d3247"/>
 <text x="1041" y="100" text-anchor="middle" class="t" font-size="50" font-weight="700" fill="#f2f6f8" letter-spacing="-1">70+</text>
 <text x="1041" y="140" text-anchor="middle" class="t" font-size="20" font-weight="500" fill="#a9b8c4">events organised</text>
 </g>

@@ -21,13 +21,6 @@ for (let i = 0; i < PROJECTS.length; i += 2) {
       .join("\n"),
   );
 }
-const streak = (th) => {
-  const c = th === "dark"
-    ? "background=00000000&ring=5FD4BE&fire=F4C2C2&currStreakNum=F2F6F8&sideNums=F2F6F8&currStreakLabel=5FD4BE&sideLabels=A9B8C4&dates=6F8396&stroke=FFFFFF22"
-    : "background=00000000&ring=0F766E&fire=B4536A&currStreakNum=0E1A2B&sideNums=0E1A2B&currStreakLabel=0F766E&sideLabels=44546A&dates=7A8798&stroke=00000022";
-  return `https://streak-stats.demolab.com?user=kaifsakes&hide_border=true&${c}`;
-};
-
 const md = `<!-- Profile README for github.com/kaifsakes. Facts match muhammadkaif.work. Graphics: node scripts/build.mjs && node scripts/readme.mjs -->
 
 <a href="${SITE}">${pic("hero", "Muhammad Kaif, Embedded Systems & AI Engineer. Firmware, medical wearables, edge AI and IoT. Open to roles, relocation-ready.")}</a>
@@ -68,16 +61,6 @@ More on **[muhammadkaif.work/leadership](${SITE}/leadership)**.
 <a href="${SITE}/expertise">${pic("stack", STACK.map((x) => x[0]).join(", "))}</a>
 
 Also SQL, Dart, ESP8266, CH32 (WCH), Teensy, Arm, Xilinx FPGA, FreeRTOS, CMake, MQTT, Modbus RTU, LoRa, WebSockets, Socket.IO, JSON, TFLite Micro, Keras, scikit-learn, OpenCV, ONNX, Hugging Face, LangGraph, OpenAI, Ollama, Qwen, ChromaDB, Proteus, Cadence Virtuoso, Vivado, Nextion, NI Multisim, Docker, Postman, Tailscale, Jira, Figma, Cursor, Claude, Slack, MS Office, Flutter and Android Studio.
-
-## Activity
-
-<p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="${streak("dark")}"><img src="${streak("light")}" alt="GitHub contribution streak" width="70%"></picture>
-</p>
-
-<p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaifsakes/kaifsakes/output/snake-dark.svg"><img src="https://raw.githubusercontent.com/kaifsakes/kaifsakes/output/snake.svg" alt="Contribution graph being eaten by a snake" width="100%"></picture>
-</p>
 
 <a href="${SITE}">${pic("footer", "muhammadkaif.work")}</a>
 
